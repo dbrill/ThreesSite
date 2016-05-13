@@ -4,6 +4,8 @@ body{
    background-repeat: no-repeat;
    background-attachment: fixed;
 }
+div#preload { display: none; }
+
 #capitol img{
   margin: auto;
   width: 1265px;
