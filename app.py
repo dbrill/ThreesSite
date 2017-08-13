@@ -8,7 +8,7 @@ app = Flask(__name__)
 @app.route('/')
 def homepage():
 	print ('hello', file=sys.stderr)
-	print ('hello', file=sys.stdou)
+	print ('hello', file=sys.stdout)
 	print (environ.get('DATABASE_URL'))
 	return render_template('index.html')
 if __name__ == '__main__':
